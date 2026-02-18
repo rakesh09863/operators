@@ -1,0 +1,9 @@
+a=int(input('enter the first value:'))
+b=int(input('enter the second value:'))
+print('orginal value of a={}'.format(a))
+print('orginal value of b={}'.format(b))
+k=a
+a=b
+b=k
+print('swapping value={}'.format(a))
+print('swapping value={}'.format(b))
